@@ -1,3 +1,38 @@
 body {
   background: papayawhip;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+*{
+  outline: 1px solid red;
+}
+.container{
+  background: yellow;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.a{
+  background: red;
+  flex-grow: 1;
+}
+.f{
+  background: purple;
+  flex-grow: 1
+  ;
+}
+.main{
+  flex-grow: 3;
+  background: blue;
+  display: flex;
+  flex-wrap: wrap;
+}
+.b{
+  width: 100vw;
+}
+
+.c, .d,.e{
+  flex-grow: 2;
 }
